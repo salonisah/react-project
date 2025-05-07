@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 import Business from "../layouts/business";
 import Team from "../layouts/team";
@@ -78,7 +79,16 @@ const Aboutus = () => {
                   dignissimos tempora quam sequi aperiam quos exercitationem
                   {" "}
                 </p>
-                <Button text="view our services" newcl="buttn-text" />
+                {/* <Link to="./pages/servicepage">
+  <Button text="view our services" newcl="buttn-text" />
+</Link> */}
+
+         <Link
+              to="/servicess"
+              data-title="View All"
+              class= "cta-button mt-7"
+            >View All ↗ </Link>
+               
               </div>
             </div>
           </div>

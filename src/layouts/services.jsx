@@ -20,14 +20,17 @@ const Services = () => {
               customized services to optimize your business potential and ensure
               long-term success.
             </p>
-            {/* <button className="services-button ">VIEW ALL ↗</button> */}
-            <Link
+            
+            {/* <Link
               to="/servicess"
-              className="services-button"
+              className="services-button mt-7"
               data-title="View All"
-            >View All ↗ </Link>
+            >View All ↗ </Link> */}
 
-            {/* <Link to="/servicepage" className="btn-style-2" data-title="VIEW ALL ↗"/> */}
+            <Link to= "/servicess" 
+                     className="services-button mt-7 transformed">
+                       View All <i className="fa fa-arrow-right smooth"></i>
+                     </Link>
           </div>
         </div>
       </div>

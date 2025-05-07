@@ -46,10 +46,10 @@ const About = () => {
 
             <div className="about-container">
               <div
-                className="box3"
+                className="box3 "
                 style={{ padding: "76px 32px", fontSize: "larger", width: "100%" }}
               >
-                <div className="about-content" style={{ width: "100%" }}>
+                <div className="about-content p-10" style={{ width: "100%" }}>
                   <h3>ABOUT US</h3>
                   <h2>
                     Innovation That Powers{" "}
@@ -64,14 +64,10 @@ const About = () => {
                     Sollicitudin morbi fusce ante ullamcorper ipsum id sit
                     tellus .
                   </p>
-                  {/* <button class="btn-style-2" data-title="About Us"></button> */}
-                  <Link
-                    to="/about"
-                    className="btn-style-2"
-                    data-title="About Us"
-                  >
-                    About Us
-                  </Link>
+                  <Link to= "/about" 
+                   className="cta-button transformed">
+                             About Us <i className="fa fa-arrow-right smooth"></i>
+                            </Link>
                 </div>
               </div>
             </div>

@@ -8,6 +8,7 @@ const Team = () => {
     
     <section className="team">
         <div className="container">
+        <div className='team-wrapper'>
              <div className="team-container">
                 <div className="team-text">
                     <h3>OUR TEAM</h3>
@@ -66,7 +67,7 @@ const Team = () => {
             </div>
         </div>
     </div>
-                
+    </div>     
  </div>
 
  </section>

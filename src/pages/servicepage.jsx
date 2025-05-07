@@ -12,7 +12,7 @@ const ServicePage = () => {
         item="Our Services"
         imageUrl="\images\about_us.jpg\Pexels Photo by fauxels.png"
       />
-      <Services/>
+      <Services />
       <Servicescard/>
       <Business />
       <Workprocess/>

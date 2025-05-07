@@ -34,42 +34,42 @@ const BlogsPage = () => {
                 heading="5 Proven Strategies to Scale Your Business Successfully"
                 description="Lorem ipsum dolor sit amet consectetur. Arcu porttitor luctus ornare nisl pellentesque egestas. Pellentesque.."
                 date="Feb 18, 2025"
-                url="/blogs/scale-strategies"
+                 url="/blog-single-page"
               />
               <Blog  
                 imageUrl="/images/blog/Mask group (16).png"
                 heading="Why Digital Transformation is Crucial in 2025"
                 description="Stay ahead in your industry by adopting the latest in tech and process automation..."
                 date="Feb 10, 2025"
-                url="/blogs/digital-transformation"
+               url="/blog-single-page"
               />
               <Blog  
                 imageUrl="/images/blog/Mask group (17).png"
                 heading="Top Financial Planning Tips for Startups"
                 description="Managing your finances right from the start can make or break your startup..."
                 date="Jan 28, 2025"
-                url="/blogs/startup-finance"
+               url="/blog-single-page"
               />
               <Blog  
                 imageUrl="/images/blog/Mask group (18).png"
                 heading="How to Build a Resilient Team Culture"
                 description="A strong team culture promotes innovation, loyalty, and long-term success..."
                 date="Jan 15, 2025"
-                url="/blogs/team-culture"
+                 url="/blog-single-page"
               />
               <Blog  
                 imageUrl="/images/blog/Mask group (19).png"
                 heading="The Future of Remote Work in Business Consulting"
                 description="As remote work becomes the norm, consultants must adapt to new client engagement models..."
                 date="Jan 05, 2025"
-                url="/blogs/remote-consulting"
+                 url="/blog-single-page"
               />
               <Blog  
                 imageUrl="/images/blog/Mask group (20).png"
                 heading="Client Retention Strategies That Actually Work"
                 description="Losing clients? These proven retention strategies will help keep your business thriving..."
                 date="Dec 25, 2024"
-                url="/blogs/client-retention"
+                 url="/blog-single-page"
               />
             </div>
           </div>
